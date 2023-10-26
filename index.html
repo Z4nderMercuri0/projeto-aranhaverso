@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aranhaverso</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+  </head>
+  <body>
+    <header class="cabecalho">
+      <img class="logo" src="./src/imagens/logo-2.png" alt="Logo Aranhaverso">
+    </header>
+
+    <main class="selecao-de-personagens">
+      <section class="personagens">
+        <h1 class="titulo">Selecione um personagem</h1>
+        <ul class="lista-de-personagens">
+          <li class="personagem selecionado" id="peter" data-name="Homem-Aranha" data-description="Peter Parker foi picado por uma aranha radioativa na adolescência, ganhando os poderes de um aracnídeo e se tornando o primeiro Homem-Aranha.">
+            <a href="./peter.html"><img
+              src="./src/imagens/icons/icon-peter.jpg"
+              alt="Personagem Peter Parker"
+            /></a>
+
+          </li>
+          <li class="personagem" id="jessica" data-name="Mulher-Aranha" data-description="Jessica Drew é uma ex espiã da Hydra que ganhou poderes aracnídeos através de experimentos feitos por seu pai, Jonathan Drew.">
+            <a href="./jessica.html"><img
+              src="./src/imagens/icons/icon-jessica.jpg"
+              alt="Personagem Jessica Drew"
+            /></a>
+            
+          </li>
+
+          <li class="personagem" id="gwen" data-name="Aranha-Fantasma" data-description="Gwen Stacy, é uma heroína com habilidades aracnídeas. Ela é conhecida por suas habilidades musicais e uso criativo de suas teias.">
+            <a href="./gwen.html"><img
+              src="./src/imagens/icons/icon-gwen.jpg"
+              alt="Personagem Gwen Stacy"
+            /></a>
+          </li>
+
+          <li class="personagem" id="miles" data-name="Homem-Aranha (Miles)" data-description="Miles Morales, o sucessor do Homem-Aranha de seu universo, é capaz de se camuflar e liberar choques bioelétricos poderosos usando suas mãos.">
+            <a href="./miles.html"><img
+              src="./src/imagens/icons/icon-miles.jpg"
+              alt="Personagem Miles Morales"
+            /></a>
+          </li>
+
+          <li class="personagem" id="silk" data-name="Silk" data-description="Silk é uma heroína com habilidades aracnídeas, força aprimorada e agilidade extrema. Ela é conhecida por ser capaz de produzir suas próprias teias orgânicas.">
+            <a href="./silk.html"><img
+              src="./src/imagens/icons/icon-silk.jpg"
+              alt="Personagem Silk"
+            /></a>
+          </li>
+
+          <li class="personagem" id="2099" data-name="Homem-Aranha 2099" data-description="Miguel O'Hara é um Homem-Aranha vindo do futuro. Ele usa seu traje avançado e conhecimentos científicos para enfrentar seus inimigos.">
+            <a href="./2099.html"><img
+              src="./src/imagens/icons/icon-2099.jpg"
+              alt="Personagem Homem-Aranha 2099"
+            /></a>
+          </li>
+
+          <li class="personagem" id="noir" data-name="Homem-Aranha Noir" data-description="Um vigilante mascarado com dotes investigativos que atua em uma realidade sombria, enfrentando facistas e corruptos durante a Grande Depressão.">
+            <a href="./noir.html"><img
+              src="./src/imagens/icons/icon-noir.jpg"
+              alt="Personagem Aranha Noir"
+            /></a>
+          </li>
+
+          <li class="personagem" id="superior" data-name="Homem-Aranha Superior" data-description="Após assumir o corpo de Peter Parker, Otto Octavius, usou sua genialidade científica para aprimorar as habilidades e tecnologia do Homem-Aranha.">
+            <a href="./superior.html"><img
+              src="./src/imagens/icons/icon-superior.jpg"
+              alt="Personagem Homem-Aranha Superior"
+            /></a>
+          </li>
+        </ul>
+      </section>
+      <section class="personagem-selecionado">
+        <img
+          class="personagem-grande"
+          src="./src/imagens/card-peter.png"
+          alt="Personagem Selecionado"
+        />
+
+        <div class="informacoes-personagem">
+          <h2 class="nome-personagem" id="nome-personagem">Homem-Aranha</h2>
+          <p class="descricao-personagem" id="descricao-personagem">
+            Peter Parker foi picado por uma aranha radioativa na adolescência, ganhando os poderes de um aracnídeo e se tornando o primeiro Homem-Aranha.
+        </div>
+      </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>

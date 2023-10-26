@@ -1,0 +1,71 @@
+body {
+	font-family: "Oxanium", cursive;
+	background-color: hsl(0, 0%, 0%);
+	color: #fb0000;
+  margin: 0;
+  padding: 0;
+}
+
+body::before{
+    content: "";
+    background-image: url(../imagens/bg-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+    opacity: 0.100;
+}
+  .logo {
+    width: 35%;
+    position:absolute;
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .texto {
+    font-size: 100%;
+    flex: 1;
+    padding-right: 10px;
+    align-items: start;
+    justify-content: start;
+  }
+
+  .nome {
+    display: inline-block;
+    padding: 2px 2px;
+    border: 2px solid #000fb3;
+    border-style: ridge;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    position: inherit;
+  }
+
+  .borda {
+    display: inline-block;
+    padding: 5px 5px;
+    border: 2px solid #000fb3;
+    border-radius: 0px;
+    border-style: ridge;
+    position: inherit;
+  }
+
+  .imagem {
+    flex: 1;
+    flex-direction: column-reverse;
+    max-width: 430px;
+    margin: 0 auto;
+  }
+
+  .imagem img {
+    max-width: 100%;
+    height: auto;
+  }
+  
